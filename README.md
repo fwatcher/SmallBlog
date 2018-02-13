@@ -21,9 +21,16 @@
   2.有部分功能还没有实现
 
 ## 效果图
+  图1:
   ![image](https://github.com/fwatcher/SmallBlog/blob/master/1.png)
+  
+  图2:
   ![image](https://github.com/fwatcher/SmallBlog/blob/master/2.png)
+  
+  图3:
   ![image](https://github.com/fwatcher/SmallBlog/blob/master/3.png)
+  
+  图4:
   ![image](https://github.com/fwatcher/SmallBlog/blob/master/4.png)
   
 

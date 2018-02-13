@@ -16,13 +16,13 @@ class WelcomeController extends Controller
 		if(isset($config['params']['id']))
 		{
 			$id = $config['params']['id'];
-			$sql = "SELECT article_id, title, content,summary,date, author FROM `article` INNER JOIN category ON article.category_id = category.category_id WHERE article.category_id = " . $id . "ORDER BY date DESC";
+			$sql = "SELECT article_id, title, content,summary,date, author FROM `article` INNER JOIN category ON article.category_id = category.category_id WHERE article.category_id = " . $id . "ORDER BY date DESC limit 0,5";
 
 			$res = $articlesShowModel -> Query($sql);
 		}
 		else
 		{
-			$sql = "SELECT article_id, title, content,summary,date, author FROM `article` INNER JOIN category ON article.category_id = category.category_id ORDER BY date DESC";
+			$sql = "SELECT article_id, title, content,summary,date, author FROM `article` INNER JOIN category ON article.category_id = category.category_id ORDER BY date DESC limit 0,5";
 
 			$res = $articlesShowModel -> Query($sql);
 		}
